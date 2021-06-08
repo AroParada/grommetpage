@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Box, Button, Collapsible, Heading, Grommet } from 'grommet';
-import { Notification } from 'grommet-icons';
+import { Box, Button, Collapsible, Heading, Grommet, ResponsiveContext, Layer } from 'grommet';
+import { FormClose, Notification } from 'grommet-icons';
 
 function App() {
 
@@ -34,6 +34,8 @@ function App() {
   const [showSidebar, setShowSidebar] = useState(false);
   return (
   <Grommet theme={theme} full>
+   <ResponsiveContext.Consumer>
+   {size => (
     <Box fill>
       <AppBar>
       <Heading level='3' margin='none'>My App</Heading>
@@ -46,7 +48,8 @@ function App() {
        <Box flex align='center' justify='center'>
           app body
        </Box>
-       <Collapsible direction="horizontal" open={showSidebar}>
+       {(!showSidebar || size !== 'small') ? (
+        <Collapsible direction="horizontal" open={showSidebar}>
            <Box
              flex
              width='medium'
@@ -58,8 +61,34 @@ function App() {
              sidebar
            </Box>
         </Collapsible>
+        ): (
+        <Layer>
+        <Box
+          background='light-2'
+          tag='header'
+          justify='end'
+          align='center'
+          direction='row'
+         >
+          <Button
+          icon={<FormClose />}
+          onClick={() => setShowSidebar(false)}
+         />
+         </Box>
+          <Box
+            fill
+            background='light-2'
+            align='center'
+            justify='center'
+            >
+            sidebar
+          </Box>
+        </Layer>
+        )}
       </Box>
       </Box>
+      )}
+      </ResponsiveContext.Consumer>
   </Grommet>
   );
 }
