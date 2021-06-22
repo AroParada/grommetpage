@@ -20,7 +20,7 @@ function App() {
   };
    
   return (
-  <Grommet theme={theme} full>
+  <Grommet background="#00739D" theme={theme} full>
   <MyCard/>
   </Grommet>
   );
