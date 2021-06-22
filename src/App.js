@@ -3,6 +3,7 @@ import { Box, Button, Collapsible, Heading, Grommet, ResponsiveContext, Layer } 
 import { FormClose, Notification } from 'grommet-icons';
 import MyCard from './components/card'
 import Typical from 'react-typical'
+import Mynav from "./components/nav";
 
 function App() {
 
@@ -20,7 +21,8 @@ function App() {
   };
    
   return (
-  <Grommet background="#00739D" theme={theme} full>
+  <Grommet theme={theme} full>
+  <Mynav/>
   <MyCard/>
   </Grommet>
   );
