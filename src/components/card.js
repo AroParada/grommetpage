@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Avatar, Button, Card, CardHeader, CardBody, CardFooter } from 'grommet';
-import { UserFemale, Favorite, ShareOption } from 'grommet-icons'
+import { Favorite, ShareOption } from 'grommet-icons'
 
 function Mycard() {
 

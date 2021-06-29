@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Box, Button, Collapsible, Heading, Grommet, ResponsiveContext, Layer } from 'grommet';
-import { FormClose, Notification } from 'grommet-icons';
 import MyCard from './components/card'
 import Typical from 'react-typical'
 import Mynav from "./components/nav";
+import Intro from './components/intro'
 
 function App() {
 
@@ -23,6 +23,7 @@ function App() {
   return (
   <Grommet theme={theme} full>
   <Mynav/>
+  <Intro/>
   <MyCard/>
   </Grommet>
   );
