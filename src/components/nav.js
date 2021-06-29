@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Anchor, Text, ResponsiveContext, Header, Box, Menu } from 'grommet';
+import { Nav, Anchor, Text, ResponsiveContext, Header, Box, Menu  } from 'grommet';
 import { Home, Mail, Github, Linkedin, DocumentPdf, } from 'grommet-icons'
 
 const Mynav = () => {
@@ -21,15 +21,18 @@ const Mynav = () => {
 <Header background="brand" pad="medium">
       <Box direction="row" align="center" gap="small">
         <Text color="white" alignSelf="center" size="xlarge" >
-           Aro Parada
+           A
         </Text>
       </Box>
       <ResponsiveContext.Consumer>
         {responsive =>
           responsive === 'small' ? (
             <Menu
-              label=""
-              items={[
+              size="medium"
+              dropBackground="brand"
+              justifyContent="center"
+              items=
+              {[
                 { icon: <Home />, onClick: () => {} },
                 { icon: <Linkedin />, onClick: () => {} },
                 { icon: <DocumentPdf />, onClick: () => {} },
