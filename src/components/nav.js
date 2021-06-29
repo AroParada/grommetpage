@@ -1,6 +1,6 @@
 import React from 'react';
-import { Nav, Anchor } from 'grommet';
-import { Home, Notification, ChatOption } from 'grommet-icons'
+import { Nav, Anchor, Text } from 'grommet';
+import { Mail, Github, Linkedin, DocumentPdf, } from 'grommet-icons'
 
 function Mynav() {
 
@@ -19,9 +19,14 @@ function Mynav() {
 
   return (
     <Nav direction="row" background="brand" pad="medium">
-    <Anchor icon={<Home />} hoverIndicator />
-    <Anchor icon={<Notification />} hoverIndicator />
-    <Anchor icon={<ChatOption />} hoverIndicator />
+    <Text color="white" alignSelf="center" size="xlarge" >
+          Aro Parada
+    </Text>
+    <Anchor icon={<Github />} hoverIndicator />
+    <Anchor icon={<Linkedin />} hoverIndicator />
+    <Anchor icon={<DocumentPdf />} hoverIndicator />
+    <Anchor icon={<Mail />} hoverIndicator />
+    
 </Nav>
   )
 }
