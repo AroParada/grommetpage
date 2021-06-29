@@ -18,11 +18,10 @@ const Mynav = () => {
   // };
 
   return (
-<Header background="brand" pad="medium">
+<Header background="brand" pad="x-small">
       <Box direction="row" align="center" gap="small">
-        <Text color="white" alignSelf="center" size="xlarge" >
-           A
-        </Text>
+        <Anchor color="white" alignSelf="center" size="xlarge" label="A" margin="medium" weight="normal" >  
+        </Anchor>
       </Box>
       <ResponsiveContext.Consumer>
         {responsive =>
