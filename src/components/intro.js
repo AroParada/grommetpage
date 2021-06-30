@@ -7,7 +7,7 @@ const Intro = () => {
 
     return (
     <Grommet theme={grommet}>
-       <Box align="center" pad="medium">
+       <Box align="center" pad="">
           <Button label="Anchor" href="#" />
         </Box>
     </Grommet>
