@@ -23,7 +23,7 @@ function Mycard() {
           <CardBody 
             pad="medium">Body
             <Box justify="center" direction="row" gap="small">
-            <Avatar src="//s.gravatar.com/avatar/b7fb138d53ba0f573212ccce38a7c43b?s=80" />    
+            <Avatar size="xlarge" src="//s.gravatar.com/avatar/b7fb138d53ba0f573212ccce38a7c43b?s=80" />    
             </Box>
           </CardBody>
           <CardFooter pad={{horizontal: "small"}} background="light-2">   

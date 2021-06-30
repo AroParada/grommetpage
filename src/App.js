@@ -4,6 +4,7 @@ import MyCard from './components/card'
 import Typical from 'react-typical'
 import Mynav from "./components/nav";
 import Intro from './components/intro'
+import SimpleFooter from './components/footer';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
   <Mynav/>
   <Intro/>
   <MyCard/>
+  <SimpleFooter/>
   </Grommet>
   );
 }
