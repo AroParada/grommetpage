@@ -6,7 +6,7 @@ export const SimpleFooter = () => (
   
     <Footer background="light-4" justify="center" pad="medium">
       <Text textAlign="center" size="small">
-        © 2019 Copyright Grommet
+        Website by Aro Parada
       </Text>
     </Footer>
   

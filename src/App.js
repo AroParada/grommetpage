@@ -44,10 +44,10 @@ const columns = {
 // If the size is medium, we have 2 rows
 // If the size is large or xlarge, we have 1 row
 const rows = {
-  small: ['xsmall', 'xsmall', 'xsmall'],
-  medium: ['xsmall', 'xsmall'],
-  large: ['xsmall'],
-  xlarge: ['xsmall'],
+  small: ['large', 'large', 'large'],
+  medium: ['large', 'large'],
+  large: ['large'],
+  xlarge: ['large'],
 };
 
   // Set the different areas you need for every size
@@ -67,11 +67,6 @@ const fixedGridAreas = {
     { name: 'test', start: [1, 0], end: [1, 0] },
     { name: 'test1', start: [2, 0], end: [2, 0] },
   ],
-  // xlarge: [
-  //   { name: 'header', start: [0, 0], end: [0, 0] },
-  //   { name: 'test', start: [1, 0], end: [1, 0] },
-  //   { name: 'test1', start: [2, 0], end: [2, 0] },
-  // ],
 };
 
 const Responsive = ({
@@ -132,21 +127,33 @@ const Responsive = ({
    
   return (
   <Grommet theme={customBreakpoints} full>
+  <Mynav/>
    <Box>
       <Responsive
         rows={rows}
         columns={columns}
-        gap="small"
+        gap=""
         areas={fixedGridAreas}
-        margin="medium"
+        margin="small"
       >
         <Box
-          gridArea="test"
-          background="neutral-3"
+          gridArea="header"
+          background="neutral-2"
           justify="center"
           align="center"
         >
-          <strong>Box 2</strong>
+  <MyCard/>
+
+          <strong></strong>
+        </Box>
+        <Box
+          gridArea="test"
+          background=""
+          justify="center"
+          align="center"
+          border="true"
+        >
+        <Intro/>
         </Box>
         <Box
           gridArea="test1"
@@ -156,19 +163,10 @@ const Responsive = ({
         >
           <strong>Box 3</strong>
         </Box>
-        <Box
-          gridArea="header"
-          background="neutral-2"
-          justify="center"
-          align="center"
-        >
-          <strong>Box 1</strong>
-        </Box>
       </Responsive>
     </Box>
-  <Mynav/>
-  <Intro/>
-  <MyCard/>
+  {/* <Intro/> */}
+  {/* <MyCard/> */}
   <SimpleFooter/>
   </Grommet>
   );
