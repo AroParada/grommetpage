@@ -19,7 +19,7 @@ function App() {
           value: 600,
         },
         medium: {
-          value: 900,
+          value: 2000,
         },
         large: {
           value: 3000,
