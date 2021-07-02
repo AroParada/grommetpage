@@ -1,6 +1,7 @@
 import React from 'react';
+import Typical from 'react-typical'
 
-import { Heading, Paragraph, grommet, Box, Button, Grommet } from 'grommet';
+import { Paragraph, grommet, Box, Button, Grommet } from 'grommet';
 
 
 const Intro = () => {
@@ -8,12 +9,11 @@ const Intro = () => {
     return (
     <Grommet theme={grommet}>
         <Box align="center" pad="">
-        <Heading margin="none">
-          Hello, I'm Aro
-        </Heading>     
-        <Heading margin="none">
-          Frontend developer 
-        </Heading>
+        <Typical
+          steps={['Hello, Im Aro', 1000 ,]}
+          loop={3}
+          wrapper="h1"
+        /> 
         <Paragraph margin="none">
            Lorem ipsum dolor sit amet,
            consectetur adipiscing elit,
