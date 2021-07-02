@@ -1,6 +1,7 @@
 import React from 'react';
 import { Nav, Anchor, ResponsiveContext, Header, Box, Menu  } from 'grommet';
-import { Home, Mail, Github, Linkedin, DocumentPdf, } from 'grommet-icons'
+import { Home, Mail, Github, Linkedin, Document, } from 'grommet-icons'
+
 
 const Mynav = () => {
 
@@ -33,18 +34,18 @@ const Mynav = () => {
               items=
               {[
                 { icon: <Home />, onClick: () => {} },
-                { icon: <Linkedin />, onClick: () => {} },
-                { icon: <DocumentPdf />, onClick: () => {} },
+                { icon: <Linkedin />,  onClick: () => {} },
+                { icon: <Document />, onClick: () => {} },
                 { icon: <Mail />, onClick: () => {} },
                 { label: 'Portfolio', onClick: () => {} },
               ]}
             />
           ) : (
   <Nav direction="row" background="brand" pad="medium">
-    <Anchor color="white" icon={<Github />} hoverIndicator />
-    <Anchor color="white" icon={<Linkedin />} hoverIndicator />
-    <Anchor color="white" icon={<DocumentPdf />} hoverIndicator />
-    <Anchor color="white" icon={<Mail />} hoverIndicator />  
+    <Anchor href="https://github.com/AroParada" target="_blank" rel="noopener" color="white" icon={<Github />} hoverIndicator />
+    <Anchor href="https://www.linkedin.com/in/aroparada/" target="_blank" rel="noopener" color="white" icon={<Linkedin />} hoverIndicator />
+    <Anchor href="https://docs.google.com/document/d/1l06xJZy6D-Al2WfnS_L7EUHIKqe6uNgEFbXbi7-FlzU/edit?usp=sharing" target="_blank" rel="noopener" color="white" icon={<Document />} hoverIndicator />
+    <Anchor href="mailto:haroldparada20@gmail.com" color="white" icon={<Mail />} hoverIndicator />  
   </Nav>
       )
     }
