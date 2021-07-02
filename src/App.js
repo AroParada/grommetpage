@@ -19,10 +19,10 @@ function App() {
           value: 600,
         },
         medium: {
-          value: 2000,
+          value: 3000,
         },
         large: {
-          value: 3000,
+          value: 4000,
         },
       },
     },
@@ -58,20 +58,20 @@ const fixedGridAreas = {
     { name: 'test1', start: [0, 2], end: [0, 2] },
   ],
   medium: [
-    { name: 'header', start: [0, 0], end: [1, 0] },
-    { name: 'test', start: [0, 1], end: [0, 1] },
-    { name: 'test1', start: [1, 1], end: [1, 1] },
+    { name: 'header', start: [0, 0], end: [0, 0] },
+    { name: 'test', start: [1, 0], end: [1, 0] },
+    { name: 'test1', start: [0, 1], end: [1, 1] },
   ],
   large: [
     { name: 'header', start: [0, 0], end: [0, 0] },
     { name: 'test', start: [1, 0], end: [1, 0] },
     { name: 'test1', start: [2, 0], end: [2, 0] },
   ],
-  xlarge: [
-    { name: 'header', start: [0, 0], end: [0, 0] },
-    { name: 'test', start: [1, 0], end: [1, 0] },
-    { name: 'test1', start: [2, 0], end: [2, 0] },
-  ],
+  // xlarge: [
+  //   { name: 'header', start: [0, 0], end: [0, 0] },
+  //   { name: 'test', start: [1, 0], end: [1, 0] },
+  //   { name: 'test1', start: [2, 0], end: [2, 0] },
+  // ],
 };
 
 const Responsive = ({
@@ -141,14 +141,6 @@ const Responsive = ({
         margin="medium"
       >
         <Box
-          gridArea="header"
-          background="neutral-2"
-          justify="center"
-          align="center"
-        >
-          <strong>Box 1</strong>
-        </Box>
-        <Box
           gridArea="test"
           background="neutral-3"
           justify="center"
@@ -163,6 +155,14 @@ const Responsive = ({
           align="center"
         >
           <strong>Box 3</strong>
+        </Box>
+        <Box
+          gridArea="header"
+          background="neutral-2"
+          justify="center"
+          align="center"
+        >
+          <strong>Box 1</strong>
         </Box>
       </Responsive>
     </Box>
