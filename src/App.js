@@ -4,6 +4,7 @@ import MyCard from './components/card'
 import Mynav from "./components/nav";
 import Intro from './components/intro'
 import SimpleFooter from './components/footer';
+import Skills from './components/skills'
 
 import { deepMerge } from 'grommet/utils';
 import { grommet } from 'grommet/themes';
@@ -160,12 +161,11 @@ const Responsive = ({
           justify="center"
           align="center"
         >
-          <strong>Box 3</strong>
+        <Skills/>
+          <strong></strong>
         </Box>
       </Responsive>
     </Box>
-  {/* <Intro/> */}
-  {/* <MyCard/> */}
   <SimpleFooter/>
   </Grommet>
   );

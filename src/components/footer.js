@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Footer, grommet, Grommet, Text } from 'grommet';
+import { Footer, Text } from 'grommet';
 
 export const SimpleFooter = () => (
   

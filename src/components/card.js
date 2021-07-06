@@ -20,11 +20,11 @@ function Mycard() {
 
   return (
     <Card height="medium" width="medium" background="light-1" align="center">
-          <CardHeader pad="medium">Header</CardHeader>
+          <CardHeader pad="medium"></CardHeader>
           <CardBody 
-            pad="medium">Body
+            pad="medium">
             <Box justify="center" direction="row" gap="small">
-            <Avatar size="xlarge" src="//s.gravatar.com/avatar/b7fb138d53ba0f573212ccce38a7c43b?s=80" />    
+            <Avatar size="xlarge" src="https://40.media.tumblr.com/b1db8d089d5314c5c3b3bf51d6df908e/tumblr_nulktnLAh61qci4izo2_500.jpg" />    
             </Box>
             <Typical
               text-align="center"
