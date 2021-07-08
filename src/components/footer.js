@@ -4,7 +4,7 @@ import { Footer, Text } from 'grommet';
 
 export const SimpleFooter = () => (
   
-    <Footer background="light-4" justify="center" pad="medium">
+    <Footer background="dark-5" justify="center" pad="medium">
       <Text textAlign="center" size="small">
         Website by Aro Parada
       </Text>

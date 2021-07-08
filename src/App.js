@@ -138,26 +138,24 @@ const Responsive = ({
       >
         <Box
           gridArea="header"
-          background="neutral-2"
+          background="light-3"
           justify="center"
           align="center"
         >
   <MyCard/>
-
           <strong></strong>
         </Box>
         <Box
           gridArea="test"
-          background=""
+          background="light-3"
           justify="center"
           align="center"
-          border="true"
         >
         <Intro/>
         </Box>
         <Box
           gridArea="test1"
-          background="neutral-4"
+          background="light-3"
           justify="center"
           align="center"
         >

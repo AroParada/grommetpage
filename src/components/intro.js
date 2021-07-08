@@ -8,7 +8,7 @@ const Intro = () => {
 
     return (
     <Grommet theme={grommet}>
-        <Box align="center" pad="">
+        <Box align="center" pad="" background="light-3">
         <Typical
               text-align="center"
               align="center"
@@ -22,6 +22,7 @@ const Intro = () => {
                 "history nerd 📚",
                 1000,
                 "food lover 🍔", 
+                1000,
                 ]}
               loop={Infinity}
               wrapper="h1"
@@ -32,7 +33,7 @@ const Intro = () => {
            sed do eiusmod tempor incididunt ut
            labore et dolore magna aliqua.
         </Paragraph>
-          <Button label="Portfolio" href="http://aroparada.com/" target="_blank" rel="noopener"/>         
+          <Button label="Portfolio" href="http://aroparada.com/" target="_blank" rel="noopener" id="shadow"/>         
         </Box>
     </Grommet>
 
