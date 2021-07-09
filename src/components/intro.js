@@ -27,11 +27,11 @@ const Intro = () => {
               loop={Infinity}
               wrapper="h1"
             /> 
-        <Paragraph margin="none">
-           Lorem ipsum dolor sit amet,
-           consectetur adipiscing elit,
-           sed do eiusmod tempor incididunt ut
-           labore et dolore magna aliqua.
+        <Paragraph margin="medium">
+          Currently working on using programming languages to provide quality interactions
+          between users and websites/software programs. Coming from a background of learning
+          linguistics and business which help problem solving and working with teams to create
+          unique user experiences.
         </Paragraph>
           <Button label="Portfolio" href="http://aroparada.com/" target="_blank" rel="noopener" id="shadow"/>         
         </Box>
@@ -40,3 +40,24 @@ const Intro = () => {
     )
 }
 export default Intro;
+
+{/* <WorldMap size="small"
+               color="dark-6"
+               continents={[
+                 {
+                   name: 'North America',
+                   color: 'neutral-1',
+                   onClick: (name) => {},
+                 },
+               ]}
+               onSelectPlace={(lat, lon) => {}}
+               places={[
+                 {
+                   name: 'Raleigh',
+                   location: [35.884766, -78.625053],
+                   color: 'accent-2',
+                   onClick: (name) => {},
+                 },
+               ]}
+               selectColor="accent-2"
+             /> */}

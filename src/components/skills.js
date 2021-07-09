@@ -1,12 +1,35 @@
 import React from 'react';
-import { grommet, Grommet} from 'grommet';
-import {Js, Reactjs, Node, Npm, Html5, Css3, Wordpress, Gremlin, Heroku} from 'grommet-icons'
+import { Text, WorldMap, Heading, grommet, Grommet} from 'grommet';
+import { LocationPin, Js, Reactjs, Node, Npm, Html5, Css3, Wordpress, Gremlin, Heroku} from 'grommet-icons'
 
 const Skills = () => {
 
 
     return(
     <Grommet background="clear" theme={grommet}>
+            <LocationPin color="red"/>
+            <Text>Currently located in Raleigh, NC</Text>
+            <WorldMap
+               color="dark-6"
+               continents={[
+                 {
+                   name: 'North America',
+                   color: 'neutral-1',
+                   onClick: (name) => {},
+                 },
+               ]}
+               onSelectPlace={(lat, lon) => {}}
+               places={[
+                 {
+                   name: 'Raleigh',
+                   location: [35.884766, -78.625053],
+                   color: 'accent-2',
+                   onClick: (name) => {},
+                 },
+               ]}
+               selectColor="accent-2"
+             />
+        <Heading size="small" margin="none">Programming Languages & Tools</Heading>
         <Html5 color='plain' size='large'/>
         <Css3 color='#0daeff' size='large'/>
         <Js color='plain' size='large' />
