@@ -1,8 +1,6 @@
 import React from 'react';
-import { Paragraph, grommet, Box, Button, Grommet } from 'grommet';
+import { Paragraph, Box, Button, Grommet } from 'grommet';
 import Typical from 'react-typical'
-import { Pause } from 'grommet-icons';
-
 
 const Intro = () => {
 
