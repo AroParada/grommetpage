@@ -25,6 +25,14 @@ function App() {
           value: 4000,
         },
       },
+        colors: {
+          brand: '#00739D',
+        },
+        font: {
+          family: 'Roboto',
+          size: '18px',
+          height: '20px',
+        },
     },
   });
 
@@ -112,18 +120,18 @@ const Responsive = ({
   </ResponsiveContext.Consumer>
 );
  
-  const theme = {
-    global: {
-      colors: {
-        brand: '#00739D',
-      },
-      font: {
-        family: 'Roboto',
-        size: '18px',
-        height: '20px',
-      },
-    },
-  };
+  // const theme = {
+  //   global: {
+  //     colors: {
+  //       brand: '#00739D',
+  //     },
+  //     font: {
+  //       family: 'Roboto',
+  //       size: '18px',
+  //       height: '20px',
+  //     },
+  //   },
+  // };
    
   return (
   <Grommet theme={customBreakpoints} full>

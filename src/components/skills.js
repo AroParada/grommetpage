@@ -6,9 +6,9 @@ const Skills = () => {
 
 
     return(
-    <Grommet background="clear" theme={grommet}>
+    <Grommet background="clear">
             <LocationPin color="red"/>
-            <Text>Currently located in Raleigh, NC</Text>
+            <Text alignSelf="end">Currently located in Raleigh, NC</Text>
             <WorldMap
                height="300"
                color="dark-6"
@@ -31,7 +31,7 @@ const Skills = () => {
                selectColor="accent-2"
              />
         <Heading size="small" margin="small">Programming Languages & Tools</Heading>
-        <Html5 color='plain' size='large'/>
+        <Html5 color='neutral-4' size='large'/>
         <Css3 color='#0daeff' size='large'/>
         <Js color='plain' size='large' />
         <Reactjs color='plain' size='large'/>

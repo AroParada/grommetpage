@@ -7,7 +7,7 @@ import { Pause } from 'grommet-icons';
 const Intro = () => {
 
     return (
-    <Grommet theme={grommet}>
+    <Grommet >
         <Box align="center" pad="" background="light-3">
         <Typical
               text-align="center"

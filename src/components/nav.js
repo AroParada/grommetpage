@@ -5,19 +5,6 @@ import { Home, Mail, Github, Linkedin, Document, } from 'grommet-icons'
 
 const Mynav = () => {
 
-  // const theme = {
-  //   global: {
-  //     colors: {
-  //       brand: '#00739D',
-  //     },
-  //     font: {
-  //       family: 'Roboto',
-  //       size: '18px',
-  //       height: '20px',
-  //     },
-  //   },
-  // };
-
   return (
 <Header background="brand" pad="x-small">
       <Box direction="row" align="center" gap="small">
