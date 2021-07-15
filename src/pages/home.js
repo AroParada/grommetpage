@@ -9,7 +9,7 @@ import Skills from '../components/skills'
 import { deepMerge } from 'grommet/utils';
 import { grommet } from 'grommet/themes';
 
-function App() {
+function Home() {
 
   // set custom breakpoints so we can see the changes
   const customBreakpoints = deepMerge(grommet, {
@@ -164,4 +164,4 @@ const Responsive = ({
   );
 }
 
-export default App;
+export default Home;

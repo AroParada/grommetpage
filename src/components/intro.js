@@ -31,7 +31,7 @@ const Intro = () => {
           linguistics and business which help problem solving and working with teams to create
           unique user experiences.
         </Paragraph>
-          <Button label="Portfolio" href="http://aroparada.com/" target="_blank" rel="noopener" id="shadow"/>         
+          <Button label="Portfolio" href="/Portfolio" id="shadow"/>         
         </Box>
     </Grommet>
 
