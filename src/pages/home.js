@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Grid, Grommet, ResponsiveContext, } from 'grommet';
+import { Heading, Box, Grid, Grommet, ResponsiveContext, } from 'grommet';
 import MyCard from '../components/card'
 import Mynav from "../components/nav";
 import Intro from '../components/intro'
@@ -137,6 +137,7 @@ const Responsive = ({
           justify="center"
           align="center"
         >
+      <Heading margin="medium">Welcome.</Heading>
   <MyCard/>
           <strong></strong>
         </Box>

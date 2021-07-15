@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Box, Grid, Grommet, ResponsiveContext, } from 'grommet';
+import { Main, Heading, Box, Grid, Grommet, ResponsiveContext, } from 'grommet';
 import Mynav from "../components/nav";
 import SimpleFooter from '../components/footer';
 
@@ -37,6 +37,11 @@ function Portfolio() {
     return (
   <Grommet theme={customBreakpoints} full>
     <Mynav/>
+    <Main background="light-2" elevation="large" pad="large" gap="large">
+    <Heading margin="none">Portfolio.</Heading>
+      <Box flex />
+    </Main>
+    <SimpleFooter />
   </Grommet>
   
     );
