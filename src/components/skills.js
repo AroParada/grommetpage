@@ -7,6 +7,17 @@ const Skills = () => {
 
     return(
     <Grommet background="clear">
+      <Heading size="small" margin="small">Programming Languages & Tools</Heading>
+        <Html5 color='neutral-4' size='large'/>
+        <Css3 color='#0daeff' size='large'/>
+        <Js color='plain' size='large' />
+        <Reactjs color='plain' size='large'/>
+        <Node color='plain' size='large'/>
+        <Npm color='plain' size='large'/>
+        <Wordpress color='plain' size='large'/>
+        <Gremlin color='purple' size='large'/>
+        <Heroku color='plain' size='large'/>
+          <div>
             <LocationPin color="red"/>
             <Text alignSelf="end">Currently located in Raleigh, NC</Text>
             <WorldMap
@@ -30,19 +41,8 @@ const Skills = () => {
                ]}
                selectColor="accent-2"
              />
-        <Heading size="small" margin="small">Programming Languages & Tools</Heading>
-        <Html5 color='neutral-4' size='large'/>
-        <Css3 color='#0daeff' size='large'/>
-        <Js color='plain' size='large' />
-        <Reactjs color='plain' size='large'/>
-        <Node color='plain' size='large'/>
-        <Npm color='plain' size='large'/>
-        <Wordpress color='plain' size='large'/>
-        <Gremlin color='purple' size='large'/>
-        <Heroku color='plain' size='large'/>
+             </div>
     </Grommet>
-    
-
     )
 }
 
