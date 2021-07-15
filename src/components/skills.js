@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, WorldMap, Heading, grommet, Grommet} from 'grommet';
+import { Main, Text, WorldMap, Heading, grommet, Grommet} from 'grommet';
 import { LocationPin, Js, Reactjs, Node, Npm, Html5, Css3, Wordpress, Gremlin, Heroku} from 'grommet-icons'
 
 const Skills = () => {
@@ -7,7 +7,7 @@ const Skills = () => {
 
     return(
     <Grommet background="clear">
-      <Heading size="small" margin="small">Programming Languages & Tools</Heading>
+        <Heading size="small" margin="medium">Programming Languages & Tools</Heading>
         <Html5 color='neutral-4' size='large'/>
         <Css3 color='#0daeff' size='large'/>
         <Js color='plain' size='large' />
@@ -21,7 +21,7 @@ const Skills = () => {
             <LocationPin color="red"/>
             <Text alignSelf="end">Currently located in Raleigh, NC</Text>
             <WorldMap
-               height="300"
+               height="350"
                color="dark-6"
                continents={[
                  {

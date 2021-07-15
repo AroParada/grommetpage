@@ -29,9 +29,9 @@ const Mynav = () => {
             />
           ) : (
   <Nav direction="row" background="brand" pad="medium">
+    <Anchor href="#" color="white" icon={<Home />} hoverIndicator /> 
     <Anchor href="https://github.com/AroParada" target="_blank" rel="noopener" color="white" icon={<Github />} hoverIndicator />
     <Anchor href="https://www.linkedin.com/in/aroparada/" target="_blank" rel="noopener" color="white" icon={<Linkedin />} hoverIndicator />
-    <Anchor href="https://docs.google.com/document/d/1l06xJZy6D-Al2WfnS_L7EUHIKqe6uNgEFbXbi7-FlzU/edit?usp=sharing" target="_blank" rel="noopener" color="white" icon={<Document />} hoverIndicator />
     <Anchor href="mailto:haroldparada20@gmail.com" color="white" icon={<Mail />} hoverIndicator />  
   </Nav>
       )

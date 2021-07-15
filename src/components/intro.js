@@ -25,7 +25,7 @@ const Intro = () => {
               loop={Infinity}
               wrapper="h1"
             /> 
-        <Paragraph margin="medium">
+        <Paragraph size="large" margin="medium">
           Currently working on using programming languages to provide quality interactions
           between users and websites/software programs. Coming from a background of learning
           linguistics and business which help problem solving and working with teams to create
