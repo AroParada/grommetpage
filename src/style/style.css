@@ -1,4 +1,47 @@
 html {
   color: #353333;
 }
+
+/* #shadow {
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+#shadow {
+  background-color: #1C6EA4;
+  display: block;
+  margin: 50px auto 0;
+  width: 100px;
+  height: 60px;
+  color: #FFF;
+  padding: 10px;
+} */
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

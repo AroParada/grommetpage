@@ -1,5 +1,5 @@
 import React from 'react';
-import { Paragraph, Box, Button, Grommet } from 'grommet';
+import { Text, Paragraph, Box, Button, Grommet } from 'grommet';
 import Typical from 'react-typical'
 
 const Intro = () => {
@@ -25,7 +25,7 @@ const Intro = () => {
               loop={Infinity}
               wrapper="h1"
             /> 
-        <Paragraph size="large" margin="medium">
+        <Paragraph textAlign="center" size="xlarge">
           Currently working on using programming languages to provide quality interactions
           between users and websites/software programs. Coming from a background of learning
           linguistics and business which help problem solving and working with teams to create

@@ -137,7 +137,7 @@ const Responsive = ({
           justify="center"
           align="center"
         >
-      <Heading margin="medium">Welcome.</Heading>
+      <Heading size="large" margin="small">Welcome.</Heading>
   <MyCard/>
           <strong></strong>
         </Box>

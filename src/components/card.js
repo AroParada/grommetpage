@@ -5,21 +5,8 @@ import Typical from 'react-typical'
 
 function Mycard() {
 
-  const theme = {
-    global: {
-      colors: {
-        brand: '#00739D',
-      },
-      font: {
-        family: 'Roboto',
-        size: '18px',
-        height: '20px',
-      },
-    },
-  };
-
   return (
-    <Card height="medium" width="medium" background="light-1" align="center">
+    <Card margin="small" height="medium" width="medium" background="light-1" align="center">
           <CardHeader pad="medium"></CardHeader>
           <CardBody 
             pad="medium">
