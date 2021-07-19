@@ -76,7 +76,7 @@ export const RichFooter = () => {
     <Grommet >
       <Box pad="large" >
       {/*Responsive Grid*/}
-      <Grid gap="small" rows="medium" columns={{ count: 'fit', size: 'small' }}>
+      <Grid gap="small" rows="fit" columns={{ count: 'fit', size: 'small' }}>
       {data.map(value => (  
         <Card class="column" elevation="large" width="medium">
           <CardBody height="small">
