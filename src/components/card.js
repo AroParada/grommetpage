@@ -2,6 +2,7 @@ import React from 'react';
 import { Box, Avatar, Button, Card, CardHeader, CardBody, CardFooter } from 'grommet';
 import { Favorite, ShareOption } from 'grommet-icons'
 import Typical from 'react-typical'
+import me from '../assets/ACD_2989 (3).jpg'
 
 function Mycard() {
 

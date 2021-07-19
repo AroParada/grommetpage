@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, WorldMap, Heading, Grommet} from 'grommet';
 import { LocationPin, Js, Reactjs, Node, Npm, Html5, Css3, Wordpress, Gremlin, Heroku, Mysql, PiedPiper} from 'grommet-icons'
+import AWS from 'react-aws-icons/dist/aws/logo/AWS';
 
 const Skills = () => {
 
@@ -14,6 +15,7 @@ const Skills = () => {
         <Reactjs color='plain' size='large'/>
         <Node color='plain' size='large'/>
         <Npm color='plain' size='large'/>
+        <AWS size={53} />
         <Wordpress color='plain' size='large'/>
         <Gremlin color='purple' size='large'/>
         <Heroku color='plain' size='large'/>
