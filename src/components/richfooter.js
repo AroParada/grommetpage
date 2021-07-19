@@ -14,6 +14,9 @@ import {
 } from 'grommet';
 
 import cryptopic from '../assets/Screenshot (189).png';
+import angelpic from '../assets/Screenshot (130).png'
+import eatingpic from '../assets/Screenshot (53).png'
+import directorypic from '../assets/Screenshot (151).png'
 import { FormDown, FormUp, Link, Github } from 'grommet-icons';
 
 
@@ -29,13 +32,30 @@ export const RichFooter = () => {
       summary: 'Team built application that provides a dashboard to track crypto coins that users follow',
       info: 'Role: Front and back-end for user login/signup. Developed with React, MongoDB, Passport and Google authentication to login users to the site.',
     },
-    // {
-    //   color: 'green',
-    //   icon: <System size="large" />,
-    //   title: 'System',
-    //   subTitle: 'Sub-system and Devices',
-    //   message: 'Composable System',
-    // },
+    {
+      Image: <Image fit="cover" src={directorypic} a11yTitle="bridge"/>,
+      github: <Anchor href="https://github.com/AroParada/employeedirectory" target="_blank" rel="noopener" color="plain" icon={<Github />} hoverIndicator />,
+      link: <Anchor href="https://aroparada.github.io/employeedirectory/" target="_blank" rel="noopener" color="plain" icon={<Link />} hoverIndicator />,
+      title: 'React User Directory ',
+      summary: 'An employee directory that allows the user to filter list by last name or search box',
+      info: 'Role: Sole author developed with React components, manages component state, and responds to user events.',
+    },
+    {
+      Image: <Image fit="cover" src={angelpic} a11yTitle="bridge"/>,
+      github: <Anchor href="https://github.com/AroParada/diosdadoProductions" target="_blank" rel="noopener" color="plain" icon={<Github />} hoverIndicator />,
+      link: <Anchor href="https://www.diosdadophotography.com/" target="_blank" rel="noopener" color="plain" icon={<Link />} hoverIndicator />,
+      title: 'Diosdado Productions ',
+      summary: 'A simple design focused portfolio and contact site for local Raleigh photographer Angel Diosdado',
+      info: 'Role: Sole author. Made with simple Html, CSS, and Javascript',
+    },
+    {
+      Image: <Image fit="cover" src={eatingpic} a11yTitle="bridge"/>,
+      github: <Anchor href="https://github.com/nihalwill/EatingHour" target="_blank" rel="noopener" color="plain" icon={<Github />} hoverIndicator />,
+      link: <Anchor href="https://nihalwill.github.io/EatingHour/" target="_blank" rel="noopener" color="plain" icon={<Link />} hoverIndicator />,
+      title: 'The Eating Hour ',
+      summary: 'Team built application allows a user to easily query their favorite meals and beverages.',
+      info: 'Uses Server-side APIs, The Meal db, The Cocktail db,and Materialize.',
+    },
   ];
 
 
