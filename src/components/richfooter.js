@@ -22,7 +22,7 @@ export const RichFooter = () => {
 
   const data = [
     {
-      Image: <Image fit="cover" src="//v2.grommet.io/assets/Wilderpeople_Ricky.jpg" a11yTitle="bridge"/>,
+      Image: <Image fit="cover" src="src/assets/Screenshot (189).png" a11yTitle="bridge"/>,
       github: <Anchor href="https://github.com/jamescbaldwin/react-finance/tree/aro" target="_blank" rel="noopener" color="plain" icon={<Github />} hoverIndicator />,
       link: <Anchor href="https://stark-tor-31756.herokuapp.com/" target="_blank" rel="noopener" color="plain" icon={<Link />} hoverIndicator />,
       title: 'Crypto Tracker',
