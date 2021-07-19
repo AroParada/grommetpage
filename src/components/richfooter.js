@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Grid,
   Anchor,
   Box,
   Button,
@@ -44,7 +45,7 @@ export const RichFooter = () => {
       github: <Anchor href="https://github.com/AroParada/diosdadoProductions" target="_blank" rel="noopener" color="plain" icon={<Github />} hoverIndicator />,
       link: <Anchor href="https://www.diosdadophotography.com/" target="_blank" rel="noopener" color="plain" icon={<Link />} hoverIndicator />,
       title: 'Diosdado Productions ',
-      summary: 'A simple design focused portfolio and contact site for local Raleigh photographer Angel Diosdado',
+      summary: 'A simple design focused portfolio and contact site for local Raleigh photographer',
       info: 'Role: Sole author. Made with simple Html, CSS, and Javascript',
     },
     {
@@ -73,7 +74,9 @@ export const RichFooter = () => {
   };
   return (
     <Grommet >
-      <Box pad="medium" align="start">
+      <Box pad="large" >
+      {/*Responsive Grid*/}
+      <Grid gap="small" rows="medium" columns={{ count: 'fit', size: 'small' }}>
       {data.map(value => (  
         <Card class="column" elevation="large" width="medium">
           <CardBody height="small">
@@ -101,6 +104,7 @@ export const RichFooter = () => {
           </Collapsible>
         </Card>
         ))}
+        </Grid>
       </Box>
     </Grommet>
   );
