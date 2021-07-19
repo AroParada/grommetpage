@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Main, Heading, Box, Grid, Grommet, ResponsiveContext, } from 'grommet';
 import Mynav from "../components/nav";
 import SimpleFooter from '../components/footer';
-import Smpcard, { RichFooter } from "../components/richfooter";
+import { RichFooter } from "../components/richfooter";
 
 import { grommet } from 'grommet/themes';
 import { deepMerge } from 'grommet/utils';

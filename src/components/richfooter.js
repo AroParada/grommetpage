@@ -14,6 +14,7 @@ import {
   Paragraph,
 } from 'grommet';
 
+import cryptopic from '../assets/Screenshot (189).png';
 import { FormDown, FormUp, Link, Github } from 'grommet-icons';
 
 
@@ -22,7 +23,7 @@ export const RichFooter = () => {
 
   const data = [
     {
-      Image: <Image fit="cover" src="src/assets/Screenshot (189).png" a11yTitle="bridge"/>,
+      Image: <Image fit="cover" src={cryptopic} a11yTitle="bridge"/>,
       github: <Anchor href="https://github.com/jamescbaldwin/react-finance/tree/aro" target="_blank" rel="noopener" color="plain" icon={<Github />} hoverIndicator />,
       link: <Anchor href="https://stark-tor-31756.herokuapp.com/" target="_blank" rel="noopener" color="plain" icon={<Link />} hoverIndicator />,
       title: 'Crypto Tracker',

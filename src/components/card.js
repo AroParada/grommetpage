@@ -1,5 +1,5 @@
 import React from 'react';
-import { WorldMap, Box, Avatar, Button, Card, CardHeader, CardBody, CardFooter } from 'grommet';
+import { Box, Avatar, Button, Card, CardHeader, CardBody, CardFooter } from 'grommet';
 import { Favorite, ShareOption } from 'grommet-icons'
 import Typical from 'react-typical'
 

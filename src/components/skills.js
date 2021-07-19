@@ -1,5 +1,5 @@
 import React from 'react';
-import { Main, Text, WorldMap, Heading, grommet, Grommet} from 'grommet';
+import { Text, WorldMap, Heading, Grommet} from 'grommet';
 import { LocationPin, Js, Reactjs, Node, Npm, Html5, Css3, Wordpress, Gremlin, Heroku} from 'grommet-icons'
 
 const Skills = () => {
