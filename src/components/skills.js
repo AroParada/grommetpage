@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, WorldMap, Heading, Grommet} from 'grommet';
-import { LocationPin, Js, Reactjs, Node, Npm, Html5, Css3, Wordpress, Gremlin, Heroku} from 'grommet-icons'
+import { LocationPin, Js, Reactjs, Node, Npm, Html5, Css3, Wordpress, Gremlin, Heroku, Mysql, PiedPiper} from 'grommet-icons'
 
 const Skills = () => {
 
@@ -17,6 +17,8 @@ const Skills = () => {
         <Wordpress color='plain' size='large'/>
         <Gremlin color='purple' size='large'/>
         <Heroku color='plain' size='large'/>
+        <Mysql color='plain' size='large'/>
+        <PiedPiper color='plain' size='large'/>
           <div>
             <LocationPin color="red"/>
             <Text alignSelf="end">Currently located in Raleigh, NC</Text>
