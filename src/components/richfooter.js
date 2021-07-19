@@ -20,8 +20,6 @@ import eatingpic from '../assets/Screenshot (53).png'
 import directorypic from '../assets/Screenshot (151).png'
 import { FormDown, FormUp, Link, Github } from 'grommet-icons';
 
-
-
 export const RichFooter = () => {
   const data = [
     {
@@ -57,7 +55,6 @@ export const RichFooter = () => {
       info: 'Uses Server-side APIs, The Meal db, The Cocktail db,and Materialize.',
     },
   ];
-
 
   const [open, setOpen] = React.useState(false);
 
