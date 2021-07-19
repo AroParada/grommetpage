@@ -22,7 +22,6 @@ import { FormDown, FormUp, Link, Github } from 'grommet-icons';
 
 
 export const RichFooter = () => {
-
   const data = [
     {
       Image: <Image fit="cover" src={cryptopic} a11yTitle="bridge"/>,
