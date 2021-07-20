@@ -9,7 +9,6 @@ export const SimpleFooter = () => (
         Website by Aro Parada
       </Text>
     </Footer>
-  
 );
 
 export default SimpleFooter;
