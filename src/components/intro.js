@@ -34,7 +34,6 @@ const Intro = () => {
           <Button label="Portfolio" href="/Portfolio" id="shadow"/>         
         </Box>
     </Grommet>
-
     )
 }
 export default Intro;
