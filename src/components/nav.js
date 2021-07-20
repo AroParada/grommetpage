@@ -35,7 +35,7 @@ const Mynav = () => {
     <Anchor href="mailto:haroldparada20@gmail.com" color="white" icon={<Mail />} hoverIndicator />  
   </Nav>
       )
-    }
+  }
   </ResponsiveContext.Consumer>
 </Header>
   )
