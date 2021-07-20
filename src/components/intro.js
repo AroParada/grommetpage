@@ -27,7 +27,7 @@ const Intro = () => {
             /> 
         <Paragraph textAlign="center" size="xlarge">
           Currently working on using programming languages to provide quality interactions
-          between users and websites/software programs. Coming from a background of learning
+          between users and websites/software programs. Passionate for learning
           linguistics and business which help problem solving and working with teams to create
           unique user experiences.
         </Paragraph>
