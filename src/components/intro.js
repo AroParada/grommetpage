@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, Paragraph, Box, Button, Grommet } from 'grommet';
+import { Paragraph, Box, Button, Grommet } from 'grommet';
 import Typical from 'react-typical'
 
 const Intro = () => {
@@ -37,24 +37,3 @@ const Intro = () => {
     )
 }
 export default Intro;
-
-{/* <WorldMap size="small"
-               color="dark-6"
-               continents={[
-                 {
-                   name: 'North America',
-                   color: 'neutral-1',
-                   onClick: (name) => {},
-                 },
-               ]}
-               onSelectPlace={(lat, lon) => {}}
-               places={[
-                 {
-                   name: 'Raleigh',
-                   location: [35.884766, -78.625053],
-                   color: 'accent-2',
-                   onClick: (name) => {},
-                 },
-               ]}
-               selectColor="accent-2"
-             /> */}
