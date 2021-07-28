@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Main, Heading, Box, Grommet, } from 'grommet';
+import { Main, Heading, Box, Grid, Grommet, ResponsiveContext, } from 'grommet';
 import Mynav from "../components/nav";
 import SimpleFooter from '../components/footer';
 import { RichFooter } from "../components/richfooter";

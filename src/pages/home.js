@@ -154,6 +154,7 @@ const Responsive = ({
           background="light-3"
           justify="center"
           align="center"
+          alignContent="center"
         >
         <Skills/>
           <strong></strong>

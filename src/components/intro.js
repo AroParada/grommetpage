@@ -26,12 +26,13 @@ const Intro = () => {
               wrapper="h1"
             /> 
         <Paragraph textAlign="center" size="xlarge">
-          Currently working on using programming languages to provide quality interactions
-          between users and websites/software programs. Passionate for learning
+          Currently work on using programming languages to provide quality interactions
+          between users and software programs. Passionate for learning
           linguistics and business which help problem solving and working with teams to create
           unique user experiences.
         </Paragraph>
-          <Button label="Portfolio" href="/Portfolio" id="shadow"/>         
+          <Button margin="small" label="Portfolio" href="/Portfolio" id="shadow"/> 
+          <Button label="Resume" href="https://docs.google.com/document/d/1l06xJZy6D-Al2WfnS_L7EUHIKqe6uNgEFbXbi7-FlzU/edit" id="shadow" target="_blank" rel="noopener" Download/> 
         </Box>
     </Grommet>
     )

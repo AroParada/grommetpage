@@ -7,7 +7,9 @@ const Skills = () => {
 
 
     return(
-    <Grommet background="clear">
+    <Grommet justify="center"
+    align="center"
+    alignContent="center" background="clear">
         <Heading size="small" margin="medium">Programming Languages & Tools</Heading>
         <Html5 color='neutral-4' size='large'/>
         <Css3 color='#0daeff' size='large'/>
