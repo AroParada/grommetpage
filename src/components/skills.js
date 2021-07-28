@@ -5,7 +5,6 @@ import AWS from 'react-aws-icons/dist/aws/logo/AWS';
 
 const Skills = () => {
 
-
     return(
     <Grommet justify="center"
     align="center"
