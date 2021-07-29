@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { Heading, Box, Grid, Grommet, ResponsiveContext, } from 'grommet';
 import MyCard from '../components/card'
 import Mynav from "../components/nav";
 import Intro from '../components/intro'
 import SimpleFooter from '../components/footer';
 import Skills from '../components/skills'
+import Scroll from "../components/scroll";
 
 import { deepMerge } from 'grommet/utils';
 import { grommet } from 'grommet/themes';
@@ -127,9 +128,7 @@ const Responsive = ({
       <Responsive
         rows={rows}
         columns={columns}
-        gap=""
         areas={fixedGridAreas}
-        margin=""
       >
         <Box
           gridArea="header"
@@ -139,7 +138,6 @@ const Responsive = ({
         >
       <Heading size="large" margin="small">Welcome.</Heading>
   <MyCard/>
-          <strong></strong>
         </Box>
         <Box
           gridArea="test"
@@ -148,13 +146,13 @@ const Responsive = ({
           align="center"
         >
         <Intro/>
+        <Scroll/>
         </Box>
         <Box
           gridArea="test1"
           background="light-3"
           justify="center"
           align="center"
-          alignContent="center"
         >
         <Skills/>
           <strong></strong>

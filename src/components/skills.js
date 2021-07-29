@@ -5,10 +5,9 @@ import AWS from 'react-aws-icons/dist/aws/logo/AWS';
 
 const Skills = () => {
 
+
     return(
-    <Grommet justify="center"
-    align="center"
-    alignContent="center" background="clear">
+    <Grommet >
         <Heading size="small" margin="medium">Programming Languages & Tools</Heading>
         <Html5 color='neutral-4' size='large'/>
         <Css3 color='#0daeff' size='large'/>
@@ -23,10 +22,10 @@ const Skills = () => {
         <Mysql color='plain' size='large'/>
         <PiedPiper color='plain' size='large'/>
           <div>
-            <LocationPin color="red"/>
-            <Text alignSelf="end">Currently located in Raleigh, NC</Text>
-            <WorldMap
-               height="350"
+            {/* <LocationPin color="red"/> */}
+            {/* <Text>Currently located in Raleigh, NC</Text> */}
+            {/* <WorldMap
+               height="300"
                color="dark-6"
                continents={[
                  {
@@ -45,7 +44,7 @@ const Skills = () => {
                  },
                ]}
                selectColor="accent-2"
-             />
+             /> */}
              </div>
     </Grommet>
     )

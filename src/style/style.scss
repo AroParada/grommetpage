@@ -5,22 +5,72 @@ html {
   color: $primary-color;
 }
 
-#shadow {
-  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
-  box-shadow: 5px 5px 15px 5px #000000;
-  }
-  #shadow {
-   background-color: #1C6EA4;
-   display: block;
-   margin: 50px auto 0;
-   width: 100px;
-   height: 60px;
-   color: #FFF;
-   padding: 10px;
-  }
+// #shadow {
+//   -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+//   box-shadow: 5px 5px 15px 5px #000000;
+//   }
+//   #shadow {
+//    background-color: #1C6EA4;
+//    display: block;
+//    margin: 50px auto 0;
+//    width: 100px;
+//    height: 60px;
+//    color: #FFF;
+//    padding: 10px;
+//   }
 
 #aws {
   width: 100px;
   padding: 25px;
   margin: 10px;
+}
+
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  border: 2px solid black;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  border-radius: 50px;
+}
+.scroll-down.active {
+  background-color: yellowgreen;
+}
+.scroll-down::before,
+.scroll-down::after {
+  opacity: 0;
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid black;
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
 }

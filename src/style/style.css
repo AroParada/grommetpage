@@ -2,46 +2,82 @@ html {
   color: #353333;
 }
 
-/* #shadow {
-  -webkit-box-shadow: 5px 5px 15px 5px #000000;
-  box-shadow: 5px 5px 15px 5px #000000;
-}
-
-#shadow {
-  background-color: #1C6EA4;
-  display: block;
-  margin: 50px auto 0;
+#aws {
   width: 100px;
-  height: 60px;
-  color: #FFF;
-  padding: 10px;
-} */
-
-/* Float four columns side by side */
-.column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
+  padding: 25px;
+  margin: 10px;
 }
 
-/* Remove extra left and right margins, due to padding in columns */
-.row {
-  margin: 0 -5px;
+.scroll-down {
+  height: 50px;
+  width: 30px;
+  border: 2px solid black;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  border-radius: 50px;
 }
 
-/* Clear floats after the columns */
-.row:after {
+.scroll-down.active {
+  background-color: yellowgreen;
+}
+
+.scroll-down::before,
+.scroll-down::after {
+  opacity: 0;
   content: "";
-  display: table;
-  clear: both;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  -webkit-transform: translate(-50%, -100%) rotate(45deg);
+          transform: translate(-50%, -100%) rotate(45deg);
+  border: 2px solid black;
+  border-top: transparent;
+  border-left: transparent;
+  -webkit-animation: scroll-down 1s ease-in-out infinite;
+          animation: scroll-down 1s ease-in-out infinite;
 }
 
-/* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
+.scroll-down::before {
+  top: 30%;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@-webkit-keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -32,7 +32,7 @@ const Intro = () => {
           unique user experiences.
         </Paragraph>
           <Button margin="small" label="Portfolio" href="/Portfolio" id="shadow"/> 
-          <Button label="Resume" href="https://docs.google.com/document/d/1l06xJZy6D-Al2WfnS_L7EUHIKqe6uNgEFbXbi7-FlzU/edit" id="shadow" target="_blank" rel="noopener" Download/> 
+          <Button primary label="Resume" href="https://docs.google.com/document/d/1l06xJZy6D-Al2WfnS_L7EUHIKqe6uNgEFbXbi7-FlzU/edit" id="shadow" target="_blank" rel="noopener" Download/> 
         </Box>
     </Grommet>
     )

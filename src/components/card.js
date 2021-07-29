@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Avatar, Button, Card, CardHeader, CardBody, CardFooter } from 'grommet';
-import { Favorite, ShareOption } from 'grommet-icons'
+import { Code } from 'grommet-icons'
 import Typical from 'react-typical'
 
 
@@ -20,13 +20,12 @@ function Mycard() {
               loop={3}
               wrapper="h1"
             /> 
+             <Button
+          icon={<Code size="large" color="brand" />}
+          alignSelf="center"
+        />
           </CardBody>
           <CardFooter pad={{horizontal: "small"}} background="light-2">   
-          <Button
-          icon={<Favorite color="red" />}
-          hoverIndicator
-        />
-        <Button icon={<ShareOption color="plain" />} hoverIndicator />
         </CardFooter>
     </Card>
   )
