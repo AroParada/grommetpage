@@ -1,4 +1,4 @@
 # My Portfolio Website
 
-Created with react, nodejs, and scss
+Personal portfolo site created from scratch using grommet react, nodejs, and scss
 
