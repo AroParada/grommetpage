@@ -6,15 +6,11 @@ import Portfolio from './pages/portfolio'
 function App () {
 
   return (
-    <Router>
     <div>
-      <Switch>
         <Route exact path="/" component={Home} />
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/Portfolio" component={Portfolio} />
-      </Switch>
+        <Route path="/home" component={Home} />
+        <Route path="/Portfolio" component={Portfolio} />
     </div>
-  </Router>
   );
 }
 export default App;
