@@ -24,7 +24,7 @@ const Mynav = () => {
                 { icon: <Anchor href="https://github.com/AroParada" target="_blank" rel="noopener" color="white" icon={<Github />} />,  onClick: () => {} },
                 { icon: <Anchor href="https://docs.google.com/document/d/1l06xJZy6D-Al2WfnS_L7EUHIKqe6uNgEFbXbi7-FlzU/edit?usp=sharing" target="_blank" rel="noopener" color="white" icon={<Document />} />, onClick: () => {} },
                 { icon: <Anchor href="mailto:haroldparada20@gmail.com" color="white" icon={<Mail />} />, onClick: () => {} },
-                { label: <Anchor href="/Portfolio" label='Portfolio' color="white" />, onClick: () => {} },
+                { label: <Anchor href="/grommetpage/#/portfolio" label='Portfolio' color="white" />, onClick: () => {} },
               ]}
             />
           ) : (
