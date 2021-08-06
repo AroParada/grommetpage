@@ -19,7 +19,7 @@ const Intro = () => {
                 1000 ,
                 "history nerd 📚",
                 1000,
-                "food lover 🍔", 
+                "burger lover 🍔", 
                 1000,
                 ]}
               loop={Infinity}
