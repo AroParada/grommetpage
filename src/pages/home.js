@@ -5,7 +5,7 @@ import Mynav from "../components/nav";
 import Intro from '../components/intro'
 import SimpleFooter from '../components/footer';
 import Skills from '../components/skills'
-import Scroll from "../components/scroll";
+// import Scroll from "../components/scroll";
 
 import { deepMerge } from 'grommet/utils';
 import { grommet } from 'grommet/themes';
@@ -148,7 +148,7 @@ const Responsive = ({
         >
         <Intro/>
         <Skills />
-        <Scroll/>
+        {/* <Scroll/> */}
         </Box>
         <Box
           gridArea="test1"
