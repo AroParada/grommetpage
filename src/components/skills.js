@@ -2,7 +2,6 @@ import React from 'react';
 import { Heading, Grommet} from 'grommet';
 import { Js, Reactjs, Node, Npm, Html5, Css3, Wordpress, Gremlin, Heroku, Mysql, PiedPiper} from 'grommet-icons'
 import AWS from 'react-aws-icons/dist/aws/logo/AWS';
-import Portfolio from './portfolio';
 
 const Skills = () => {
 

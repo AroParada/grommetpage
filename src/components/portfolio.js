@@ -1,11 +1,9 @@
 import React from "react";
 import { Main, Heading, Box, Grommet, } from 'grommet';
-import SimpleFooter from './footer';
 import { RichFooter } from "./richfooter";
 
 import { grommet } from 'grommet/themes';
 import { deepMerge } from 'grommet/utils';
-import Skills from "./skills";
 
 
 function Portfolio() {
