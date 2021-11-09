@@ -11,15 +11,15 @@ html {
   margin: 10px;
 }
 
-.scroll-down {
-  height: 50px;
-  width: 30px;
-  border: 2px solid black;
-  position: absolute;
-  left: 50%;
-  bottom: 20px;
-  border-radius: 50px;
-}
+// .scroll-down {
+//   height: 50px;
+//   width: 30px;
+//   border: 2px solid black;
+//   position: absolute;
+//   left: 50%;
+//   bottom: 20px;
+//   border-radius: 50px;
+// }
 .scroll-down.active {
   background-color: yellowgreen;
 }
