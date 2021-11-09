@@ -35,7 +35,7 @@ function Portfolio() {
      
     return (
   <Grommet theme={customBreakpoints} full>
-    <Main background="light-2" elevation="large" pad="large" gap="large">
+    <Main background="light-4" elevation="large" pad="large" gap="large">
     <Heading margin="none">Portfolio.</Heading>
     <RichFooter/>
       <Box flex />

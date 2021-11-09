@@ -6,7 +6,7 @@ const Intro = () => {
 
     return (
     <Grommet >
-        <Box align="center" pad="" background="light-3">
+        <Box align="center" pad="" background="light-4">
         <Typical
               text-align="center"
               align="center"

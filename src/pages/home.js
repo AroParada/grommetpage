@@ -133,7 +133,7 @@ const Responsive = ({
       >
         <Box
           gridArea="header"
-          background="light-3"
+          background="light-4"
           justify="center"
           align="center"
         >
@@ -142,7 +142,7 @@ const Responsive = ({
         </Box>
         <Box
           gridArea="test"
-          background="light-3"
+          background="light-4"
           justify="center"
           align="center"
         >
@@ -152,7 +152,7 @@ const Responsive = ({
         </Box>
         <Box
           gridArea="test1"
-          background="light-3"
+          background="light-4"
           justify="center"
           align="center"
         >
