@@ -1,7 +1,8 @@
 import React from 'react';
-import { Text, WorldMap, Heading, Grommet} from 'grommet';
-import { LocationPin, Js, Reactjs, Node, Npm, Html5, Css3, Wordpress, Gremlin, Heroku, Mysql, PiedPiper} from 'grommet-icons'
+import { Heading, Grommet} from 'grommet';
+import { Js, Reactjs, Node, Npm, Html5, Css3, Wordpress, Gremlin, Heroku, Mysql, PiedPiper} from 'grommet-icons'
 import AWS from 'react-aws-icons/dist/aws/logo/AWS';
+import Portfolio from './portfolio';
 
 const Skills = () => {
 
@@ -21,31 +22,7 @@ const Skills = () => {
         <Heroku color='plain' size='large'/>
         <Mysql color='plain' size='large'/>
         <PiedPiper color='plain' size='large'/>
-          <div>
-            {/* <LocationPin color="red"/> */}
-            {/* <Text>Currently located in Raleigh, NC</Text> */}
-            {/* <WorldMap
-               height="300"
-               color="dark-6"
-               continents={[
-                 {
-                   name: 'North America',
-                   color: 'neutral-1',
-                   onClick: (name) => {},
-                 },
-               ]}
-               onSelectPlace={(lat, lon) => {}}
-               places={[
-                 {
-                   name: 'Raleigh',
-                   location: [35.884766, -78.625053],
-                   color: 'accent-2',
-                   onClick: (name) => {},
-                 },
-               ]}
-               selectColor="accent-2"
-             /> */}
-             </div>
+        {/* <Portfolio /> */}
     </Grommet>
     )
 }

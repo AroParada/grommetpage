@@ -9,6 +9,7 @@ import Scroll from "../components/scroll";
 
 import { deepMerge } from 'grommet/utils';
 import { grommet } from 'grommet/themes';
+import Portfolio from "../components/portfolio";
 
 function Home() {
 
@@ -146,6 +147,7 @@ const Responsive = ({
           align="center"
         >
         <Intro/>
+        <Skills />
         <Scroll/>
         </Box>
         <Box
@@ -154,7 +156,7 @@ const Responsive = ({
           justify="center"
           align="center"
         >
-        <Skills/>
+        <Portfolio />
           <strong></strong>
         </Box>
       </Responsive>

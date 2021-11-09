@@ -1,11 +1,11 @@
 import React from "react";
 import { Main, Heading, Box, Grommet, } from 'grommet';
-import Mynav from "../components/nav";
-import SimpleFooter from '../components/footer';
-import { RichFooter } from "../components/richfooter";
+import SimpleFooter from './footer';
+import { RichFooter } from "./richfooter";
 
 import { grommet } from 'grommet/themes';
 import { deepMerge } from 'grommet/utils';
+import Skills from "./skills";
 
 
 function Portfolio() {
@@ -37,13 +37,11 @@ function Portfolio() {
      
     return (
   <Grommet theme={customBreakpoints} full>
-    <Mynav/>
     <Main background="light-2" elevation="large" pad="large" gap="large">
     <Heading margin="none">Portfolio.</Heading>
     <RichFooter/>
       <Box flex />
     </Main>
-    <SimpleFooter />
   </Grommet>
   
     );
