@@ -75,7 +75,7 @@ export const RichFooter = () => {
       {/*Responsive Grid*/}
       <Grid gap="small" rows="fit" columns={{ count: 'fit', size: 'small' }}>
       {data.map(value => (  
-        <Card class="column" elevation="large" width="medium">
+        <Card background="light-1" class="column" elevation="large" width="medium">
           <CardBody height="small">
             {value.Image}
           </CardBody>
