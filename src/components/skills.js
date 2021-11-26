@@ -21,7 +21,6 @@ const Skills = () => {
         <Heroku color='plain' size='large'/>
         <Mysql color='plain' size='large'/>
         <PiedPiper color='plain' size='large'/>
-        {/* <Portfolio /> */}
     </Grommet>
     )
 }

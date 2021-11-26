@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav, Anchor, ResponsiveContext, Header, Box, Menu  } from 'grommet';
-import { Home, Mail, Github, Linkedin, Document, } from 'grommet-icons'
+import { Mail, Github, Linkedin, Document, } from 'grommet-icons'
 
 
 const Mynav = () => {
@@ -8,7 +8,7 @@ const Mynav = () => {
   return (
 <Header background="brand" pad="x-small">
       <Box direction="row" align="center" gap="small">
-        <Anchor color="white" alignSelf="center" size="xlarge" label="A" margin="medium" weight="" >  
+        <Anchor color="white" alignSelf="center" size="xlarge" label="A" margin="medium"  >  
         </Anchor>
       </Box>
       <ResponsiveContext.Consumer>
