@@ -23,6 +23,7 @@ import { FormDown, FormUp, Link, Github } from 'grommet-icons';
 export const RichFooter = () => {
   const data = [
     {
+      id: 0,
       Image: <Image fit="cover" src={cryptopic} a11yTitle="bridge"/>,
       github: <Anchor href="https://github.com/jamescbaldwin/react-finance/tree/aro" target="_blank" rel="noopener" color="plain" icon={<Github />} hoverIndicator />,
       link: <Anchor href="https://stark-tor-31756.herokuapp.com/" target="_blank" rel="noopener" color="plain" icon={<Link />} hoverIndicator />,
@@ -31,6 +32,7 @@ export const RichFooter = () => {
       info: 'Role: Front and back-end for user login/signup. Developed with React, MongoDB, Passport and Google authentication to login users to the site.',
     },
     {
+      id: 1,
       Image: <Image fit="cover" src={directorypic} a11yTitle="bridge"/>,
       github: <Anchor href="https://github.com/AroParada/employeedirectory" target="_blank" rel="noopener" color="plain" icon={<Github />} hoverIndicator />,
       link: <Anchor href="https://aroparada.github.io/employeedirectory/" target="_blank" rel="noopener" color="plain" icon={<Link />} hoverIndicator />,
@@ -39,6 +41,7 @@ export const RichFooter = () => {
       info: 'Role: Sole author developed with React components, manages component state, and responds to user events.',
     },
     {
+      id: 2,
       Image: <Image fit="cover" src={angelpic} a11yTitle="bridge"/>,
       github: <Anchor href="https://github.com/AroParada/diosdadoProductions" target="_blank" rel="noopener" color="plain" icon={<Github />} hoverIndicator />,
       link: <Anchor href="https://www.diosdadophotography.com/" target="_blank" rel="noopener" color="plain" icon={<Link />} hoverIndicator />,
@@ -47,6 +50,7 @@ export const RichFooter = () => {
       info: 'Role: Sole author. Made with simple Html, CSS, and Javascript',
     },
     {
+      id: 3,
       Image: <Image fit="cover" src={eatingpic} a11yTitle="bridge"/>,
       github: <Anchor href="https://github.com/nihalwill/EatingHour" target="_blank" rel="noopener" color="plain" icon={<Github />} hoverIndicator />,
       link: <Anchor href="https://nihalwill.github.io/EatingHour/" target="_blank" rel="noopener" color="plain" icon={<Link />} hoverIndicator />,
@@ -75,7 +79,7 @@ export const RichFooter = () => {
       {/*Responsive Grid*/}
       <Grid gap="small" rows="fit" columns={{ count: 'fit', size: 'small' }}>
       {data.map(value => (  
-        <Card background="light-1" className="column" elevation="large" width="medium">
+        <Card background="light-1" className="column" elevation="large" width="medium" key={value.id}>
           <CardBody height="small">
             {value.Image}
           </CardBody>
