@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/grommetpage/static/css/main.f2de33be.chunk.css",
+    "main.js": "/grommetpage/static/js/main.c000ed80.chunk.js",
+    "main.js.map": "/grommetpage/static/js/main.c000ed80.chunk.js.map",
+    "runtime-main.js": "/grommetpage/static/js/runtime-main.bf1d8383.js",
+    "runtime-main.js.map": "/grommetpage/static/js/runtime-main.bf1d8383.js.map",
+    "static/js/2.4f478eab.chunk.js": "/grommetpage/static/js/2.4f478eab.chunk.js",
+    "static/js/2.4f478eab.chunk.js.map": "/grommetpage/static/js/2.4f478eab.chunk.js.map",
+    "static/js/3.0227ff55.chunk.js": "/grommetpage/static/js/3.0227ff55.chunk.js",
+    "static/js/3.0227ff55.chunk.js.map": "/grommetpage/static/js/3.0227ff55.chunk.js.map",
+    "index.html": "/grommetpage/index.html",
+    "static/css/main.f2de33be.chunk.css.map": "/grommetpage/static/css/main.f2de33be.chunk.css.map",
+    "static/js/2.4f478eab.chunk.js.LICENSE.txt": "/grommetpage/static/js/2.4f478eab.chunk.js.LICENSE.txt",
+    "static/media/Screenshot (130).bf5c1fc5.png": "/grommetpage/static/media/Screenshot (130).bf5c1fc5.png",
+    "static/media/Screenshot (151).6040fa34.png": "/grommetpage/static/media/Screenshot (151).6040fa34.png",
+    "static/media/Screenshot (189).2b897d87.png": "/grommetpage/static/media/Screenshot (189).2b897d87.png",
+    "static/media/Screenshot (53).7d074480.png": "/grommetpage/static/media/Screenshot (53).7d074480.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf1d8383.js",
+    "static/js/2.4f478eab.chunk.js",
+    "static/css/main.f2de33be.chunk.css",
+    "static/js/main.c000ed80.chunk.js"
+  ]
+}
