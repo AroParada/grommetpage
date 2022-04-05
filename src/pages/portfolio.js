@@ -1,6 +1,6 @@
 import React from "react";
 import { Main, Heading, Box, Grommet } from "grommet";
-import { RichFooter } from "./richfooter";
+import { RichFooter } from "../components/richfooter";
 
 import { grommet } from "grommet/themes";
 import { deepMerge } from "grommet/utils";
@@ -32,7 +32,7 @@ function Portfolio() {
 
   return (
     <Grommet theme={customBreakpoints} full>
-      <Main background="light-6" elevation="large" pad="large" gap="large">
+      <Main background="light-6" elevation="large" pad="medium" gap="large">
         <Heading margin="none">Portfolio.</Heading>
         <RichFooter />
         <Box flex />

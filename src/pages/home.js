@@ -8,7 +8,7 @@ import Skills from "../components/skills";
 
 import { deepMerge } from "grommet/utils";
 import { grommet } from "grommet/themes";
-import Portfolio from "../components/portfolio";
+import Portfolio from "./portfolio";
 
 function Home() {
   // set custom breakpoints so we can see the changes
@@ -144,7 +144,6 @@ function Home() {
           >
             <Intro />
             <Skills />
-            {/* <Scroll/> */}
           </Box>
           <Box
             gridArea="test1"
@@ -153,11 +152,11 @@ function Home() {
             align="center"
           >
             <Portfolio />
-            <strong></strong>
+            {/* <strong></strong> */}
           </Box>
         </Responsive>
       </Box>
-      <SimpleFooter />
+      {/* <SimpleFooter /> */}
     </Grommet>
   );
 }
