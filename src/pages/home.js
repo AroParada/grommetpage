@@ -3,12 +3,11 @@ import { Heading, Box, Grid, Grommet, ResponsiveContext } from "grommet";
 import MyCard from "../components/card";
 import Mynav from "../components/nav";
 import Intro from "../components/intro";
-import SimpleFooter from "../components/footer";
 import Skills from "../components/skills";
 
 import { deepMerge } from "grommet/utils";
 import { grommet } from "grommet/themes";
-import Portfolio from "./portfolio";
+import Portfolio from "../components/portfolio";
 
 function Home() {
   // set custom breakpoints so we can see the changes
@@ -152,11 +151,9 @@ function Home() {
             align="center"
           >
             <Portfolio />
-            {/* <strong></strong> */}
           </Box>
         </Responsive>
       </Box>
-      {/* <SimpleFooter /> */}
     </Grommet>
   );
 }
