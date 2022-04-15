@@ -143,6 +143,7 @@ function Home() {
           >
             <Intro />
             <Skills />
+            {/* <Scroll/> */}
           </Box>
           <Box
             gridArea="test1"
@@ -151,6 +152,7 @@ function Home() {
             align="center"
           >
             <Portfolio />
+            <strong></strong>
           </Box>
         </Responsive>
       </Box>
