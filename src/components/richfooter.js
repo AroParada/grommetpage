@@ -80,34 +80,6 @@ export const RichFooter = () => {
     },
     {
       id: 2,
-      Image: <Image fit="cover" src={angelpic} a11yTitle="bridge" />,
-      github: (
-        <Anchor
-          href="https://github.com/AroParada/diosdadoProductions"
-          target="_blank"
-          rel="noopener"
-          color="plain"
-          icon={<Github />}
-          hoverIndicator
-        />
-      ),
-      link: (
-        <Anchor
-          href="https://www.diosdadophotography.com/"
-          target="_blank"
-          rel="noopener"
-          color="plain"
-          icon={<Link />}
-          hoverIndicator
-        />
-      ),
-      title: "Diosdado Productions ",
-      summary:
-        "A simple design focused portfolio and contact site for local Raleigh photographer",
-      info: "Role: Sole author. Made with simple Html, CSS, and Javascript",
-    },
-    {
-      id: 3,
       Image: <Image fit="cover" src={eatingpic} a11yTitle="bridge" />,
       github: (
         <Anchor
@@ -133,6 +105,34 @@ export const RichFooter = () => {
       summary:
         "Team built application allows a user to easily query their favorite meals and beverages.",
       info: "Uses Server-side APIs, The Meal db, The Cocktail db,and Materialize.",
+    },
+    {
+      id: 3,
+      Image: <Image fit="cover" src={angelpic} a11yTitle="bridge" />,
+      github: (
+        <Anchor
+          href="https://github.com/AroParada/diosdadoProductions"
+          target="_blank"
+          rel="noopener"
+          color="plain"
+          icon={<Github />}
+          hoverIndicator
+        />
+      ),
+      link: (
+        <Anchor
+          href="https://www.diosdadophotography.com/"
+          target="_blank"
+          rel="noopener"
+          color="plain"
+          icon={<Link />}
+          hoverIndicator
+        />
+      ),
+      title: "Diosdado Productions ",
+      summary:
+        "A simple design focused portfolio and contact site for local Raleigh photographer",
+      info: "Role: Sole author. Made with simple Html, CSS, and Javascript",
     },
   ];
 
